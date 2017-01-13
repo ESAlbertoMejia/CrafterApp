@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">CrafterApp</string>
+    <string name="user_image">Imagen de Usuario</string>
+    <string name="title_nav_home">Inicio</string>
+    <string name="title_nav_purchases">Compras</string>
+    <string name="title_nav_menu">Menú</string>
+    <string name="action_settings">Action Settings</string>
+
+    <string name="open_drawer">Open Drawer Layout</string>
+    <string name="close_drawer">Close Drawer Layout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

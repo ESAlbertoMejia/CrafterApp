@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="@dimen/nav_header_height"
+    android:gravity="bottom"
+    android:background="@drawable/nav_header_main"
+    android:backgroundTint="@color/blackTransparent"
+    android:backgroundTintMode="src_over"
+    android:padding="@dimen/general_padding"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    tools:targetApi="lollipop">
+
+    <ImageView
+        android:id="@+id/user_img"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/ic_account_circle"
+        android:contentDescription="@string/user_image"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:text="Alberto Mejia"/>
+
+    <TextView
+        android:id="@+id/user_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Spinner"
+        android:text="example@midominio.com"/>
 
 </LinearLayout>
