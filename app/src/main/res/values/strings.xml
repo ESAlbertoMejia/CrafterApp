@@ -6,10 +6,12 @@
     <string name="title_nav_menu">Menú</string>
     <string name="action_settings">Action Settings</string>
     <string name="purchases">Compras</string>
+    
+    <string name="title_tab_drinks">BEBIDAS</string>
+    <string name="title_tab_desserts">POSTRES</string>
+    <string name="title_tab_farms">FINCAS</string>
 
     <string name="open_drawer">Open Drawer Layout</string>
     <string name="close_drawer">Close Drawer Layout</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
 </resources>

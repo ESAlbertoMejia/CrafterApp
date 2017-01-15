@@ -84,6 +84,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_home:
                 fragment = new MainFragment();
                 break;
+            case R.id.nav_menu:
+                fragment = new LetterFragment();
+                break;
         }
 
         if (fragment != null)

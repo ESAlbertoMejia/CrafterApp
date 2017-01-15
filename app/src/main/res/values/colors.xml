@@ -4,6 +4,10 @@
     <color name="colorPrimaryDark">#5D4037</color>
     <color name="colorAccent">#FF3D00</color>
 
+    <color name="centerColor">#FF5722</color>
+    <color name="endColor">#DD2C00</color>
+    <color name="priceColor">#25a91c</color>
+
     <color name="blackTransparent">#3c000000</color>
     <color name="blackSemiTransparent">#c3000000</color>
 
