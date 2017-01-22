@@ -7,7 +7,7 @@
     android:orientation="vertical"
     app:cardBackgroundColor="@color/cardview_shadow_end_color"
     app:cardCornerRadius="8dp"
-    app:cardElevation="5dp">
+    app:cardElevation="4dp">
 
     <ImageView
         android:id="@+id/item_img_ref"
@@ -32,7 +32,8 @@
             android:text="Frozen"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:textColor="@android:color/white"
-            android:textStyle="normal|bold|italic" />
+            android:textSize="20sp"
+            android:textStyle="normal|bold" />
 
         <TextView
             android:id="@+id/item_description"
@@ -42,7 +43,8 @@
             android:gravity="end"
             android:text="Descripcion"
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/item_price"
