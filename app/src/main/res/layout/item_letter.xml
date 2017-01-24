@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/AppTheme.CardViewItemLetter"
     android:layout_width="match_parent"
     android:layout_height="150dp"
     android:layout_margin="8dp"
-    android:orientation="vertical"
-    app:cardBackgroundColor="@color/cardview_shadow_end_color"
-    app:cardCornerRadius="8dp"
-    app:cardElevation="4dp">
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/item_img_ref"
@@ -26,36 +23,29 @@
 
         <TextView
             android:id="@+id/item_title"
+            style="@style/AppTheme.CardViewLetterTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:text="Frozen"
-            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-            android:textColor="@android:color/white"
-            android:textSize="20sp"
-            android:textStyle="normal|bold" />
+            android:text="Frozen" />
 
         <TextView
             android:id="@+id/item_description"
+            style="@style/AppTheme.CardViewLetterSubTitle"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:gravity="end"
-            android:text="Descripcion"
-            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-            android:textColor="@android:color/white"
-            android:textSize="18sp" />
+            android:text="Descripcion" />
 
         <TextView
             android:id="@+id/item_price"
+            style="@style/AppTheme.CardViewLetterPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="end"
-            android:text="$ 2.99"
-            android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse"
-            android:textSize="16dp"
-            android:textStyle="normal|bold" />
+            android:text="$ 2.99" />
 
     </LinearLayout>
 
