@@ -62,4 +62,12 @@
         <item name="android:layout_marginTop">8dp</item>
     </style>
 
+    <style name="ExpandedToolbar" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:textSize">42sp</item>
+    </style>
+    <style name="CollapsedToobar" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
 </resources>
