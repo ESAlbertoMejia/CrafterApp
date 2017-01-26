@@ -18,6 +18,7 @@
             android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            app:statusBarScrim="@android:color/transparent"
             app:collapsedTitleTextAppearance="@style/CollapsedToobar"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleTextAppearance="@style/ExpandedToolbar"
