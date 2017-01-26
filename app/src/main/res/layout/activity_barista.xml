@@ -5,6 +5,7 @@
     android:id="@+id/activity_barista"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     tools:context="com.esamdevelopers.gamej.crafterapp.BaristaActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -34,7 +35,8 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+                android:fitsSystemWindows="true"
+                app:layout_scrollFlags="scroll|enterAlways"
                 app:popupTheme="@style/AppTheme.PopUpOverlay" />
 
         </android.support.design.widget.CollapsingToolbarLayout>
