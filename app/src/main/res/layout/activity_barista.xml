@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
-            app:theme="@style/AppTheme.Collapsing"
+            android:theme="@style/AppTheme.Collapsing"
             app:collapsedTitleTextAppearance="@style/CollapsedToobar"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleTextAppearance="@style/ExpandedToolbar"
