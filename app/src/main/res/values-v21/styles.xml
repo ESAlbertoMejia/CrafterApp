@@ -28,4 +28,9 @@
         <item name="android:layout_marginBottom">10dp</item>
     </style>
 
+    <style name="AppTheme.Collapsing">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
 </resources>
