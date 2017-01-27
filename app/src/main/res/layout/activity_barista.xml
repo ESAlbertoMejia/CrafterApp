@@ -11,7 +11,6 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:fitsSystemWindows="true"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -21,11 +20,13 @@
             app:collapsedTitleTextAppearance="@style/CollapsedToobar"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleTextAppearance="@style/ExpandedToolbar"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+            app:statusBarScrim="@android:color/transparent">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
+                android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/pic_barista"
                 app:layout_collapseMode="parallax" />
