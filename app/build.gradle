@@ -7,8 +7,8 @@ android {
         applicationId "com.esamdevelopers.gamej.crafterapp"
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 32
-        versionName "1.31.0"
+        versionCode 33
+        versionName "1.32.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
